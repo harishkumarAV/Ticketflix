@@ -1,0 +1,12 @@
+[
+    {
+        "userId":1,
+        "name":"harish",
+        "category":"student"
+    }
+    {
+        "userId":2,
+        "name":"dhrisha",
+        "category":"student"
+    }
+]

@@ -1,0 +1,25 @@
+body
+{
+    background: no-repeat url("https://michaelbeststrategies.com/wp-content/uploads/2020/10/Doctor-in-hospital-background-with-copy-space-949812160_7952x5304-1-scaled.jpeg");
+    background-size: cover;
+}
+.style{
+    text-align: left ;
+    padding-left:40px;
+    padding-top:30px;
+}
+.one{
+    text-align: left ;
+    padding-left:50px;
+    
+}
+.two{
+    text-align: left ;
+    padding-left:70px;
+    
+}
+button[type=book]{
+    background-color: rgb(195, 191, 194);
+    font-size: 12px;
+
+}

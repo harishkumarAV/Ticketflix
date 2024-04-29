@@ -1,0 +1,85 @@
+.body12{
+    background :no-repeat url("http://wallpaperaccess.com/full/3967976.jpg");
+    background-size:cover;
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   
+}
+.img{
+    position:fixed;
+    top: 50px;
+    left: 600px;
+}
+.login-form {
+    background-color:rgb(246, 244, 244);
+    background :no-repeat url("https://tse4.mm.bing.net/th?id=OIP.2iYd2TVxRTidU9ipk6CMkgHaE8&pid=Api&P=0");
+    background-size:cover;
+
+    padding:15rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    position:relative; 
+    right:10px;top:0px; 
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+.img{
+    position:fixed;
+    top: 50px;
+    left: 600px;
+}
+
+input[type=email1],[type=password1]
+{
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+button[classname="Submit"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:cadetblue;
+    border: 1px solid cadetblue;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+button[classname="login"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:cadetblue;
+    border: 1px solid cadetblue;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  button[classname="login"]:hover {
+    background: #6cf0c2;
+  }
+  .button-container {
+    display:inline-block;
+    justify-content:center;
+  }
+  .input-container 
+  {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 15px;
+  }

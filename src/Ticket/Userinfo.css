@@ -1,0 +1,69 @@
+.body7 {
+ background :no-repeat url("https://noelmurphy.com.au/wp-content/uploads/2016/11/bg-collage-1.jpg");
+    background-size:cover;
+    font-size: 20px;
+    color:rgb(253, 252, 252);
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: rgb(243, 52, 52);
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="tel"] {
+    display: block;
+    width: 100%;
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ea1c1c;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button[type="submit"] {
+    background-color: #4caf50;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skills | Your Website</title>
+  <link rel="stylesheet" type="text/css" href="web.css">
+  <style>
+    /* Add custom fonts and general styles */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      background-image: url("https://wallpaperaccess.com/full/163951.jpg");
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #0b0b0b;
+    }
+
+    /* Add styles for the navigation links */
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #100101;
+      padding: 5px;
+      border: 1px solid #151515;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #080808;
+      color: #fff;
+    }
+
+    /* Add styles for the main content */
+    .container {
+      padding: 50px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #0e0101;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    /* Add styles for the skills section */
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .skills-list li {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #6f6f6f;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      animation: formCircle 1s ease-in-out;
+      cursor: pointer;
+    }
+
+    .definition {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    @keyframes formCircle {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    /* Add styles for the footer */
+    footer {
+      color: #060606;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="web.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h1>Skills</h1>
+    <ul class="skills-list">
+      <li onclick="showDefinition('HTML')">HTML</li>
+      <li onclick="showDefinition('CSS')">CSS</li>
+      <li onclick="showDefinition('JavaScript')">JavaScript</li>
+      <li onclick="showDefinition('React')">React</li>
+      <li onclick="showDefinition('Spring boot')">Spring boot</li>
+      <li onclick="showDefinition('Figma')">Figma</li>
+      <li onclick="showDefinition('Bootstrap')">Bootstrap</li>
+      <li onclick="showDefinition('Java')">Java</li>
+      <li onclick="showDefinition('C++')">C++</li>
+      <li onclick="showDefinition('Rest Api')">Rest Api</li>
+      <li onclick="showDefinition('SQL')">SQL</li>
+      <li onclick="showDefinition('Git')">Git</li>
+      <li onclick="showDefinition('After Effects')">After Effects</li>
+      <li onclick="showDefinition('Adobe Lightroom')">Adobe Lightroom</li>
+      <li onclick="showDefinition('Competitive coding')">Competitive coding</li>
+      <li onclick="showDefinition('Problem solving')">Problem solving</li>
+    </ul>
+    <div id="definition" class="definition"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 harishk inc. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showDefinition(skill) {
+      let definition = '';
+
+      switch (skill) {
+        case 'HTML':
+          definition = 'HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications.';
+          break;
+        case 'CSS':
+          definition = 'CSS stands for Cascading Style Sheets. It is a style sheet language used for describing the presentation of a document written in HTML.';
+          break;
+        case 'JavaScript':
+          definition = 'JavaScript is a high-level programming language that enables interactive web pages and provides dynamic and interactive features to websites.';
+          break;
+        case 'React':
+          definition = 'React is a JavaScript library for building user interfaces. It is widely used for building single-page applications and mobile applications.';
+          break;
+        case 'Spring boot':
+          definition = 'Spring Boot is a framework used to create standalone, production-grade Spring-based applications with minimal configuration.';
+          break;
+        case 'Figma':
+          definition = 'Figma is a cloud-based design and prototyping tool used for creating user interfaces and interactive designs.';
+          break;
+        case 'Bootstrap':
+          definition = 'Bootstrap is a popular CSS framework that provides pre-built components and styles for creating responsive web pages and web applications.';
+          break;
+        case 'Java':
+          definition = 'Java is a widely-used programming language known for its portability and the ability to run on any device that supports Java.';
+          break;
+        case 'C++':
+          definition = 'C++ is a powerful and widely-used programming language known for its efficiency and performance in system programming and game development.';
+          break;
+        case 'Rest Api':
+          definition = 'REST API (Representational State Transfer Application Programming Interface) is an architectural style used for designing networked applications.';
+          break;
+        case 'SQL':
+          definition = 'SQL (Structured Query Language) is a programming language used for managing and manipulating relational databases.';
+          break;
+        case 'Git':
+          definition = 'Git is a distributed version control system used for tracking changes in source code during software development.';
+          break;
+        case 'After Effects':
+          definition = 'Adobe After Effects is a motion graphics and visual effects software used for creating animations, compositing, and video editing.';
+          break;
+        case 'Adobe Lightroom':
+          definition = 'Adobe Lightroom is a photo editing and organizing software used by photographers for post-processing and managing their digital images.';
+          break;
+        case 'Competitive coding':
+          definition = 'Competitive coding refers to participating in coding competitions and solving algorithmic problems within a given time frame.';
+          break;
+        case 'Problem solving':
+          definition = 'Problem solving is the ability to analyze and solve complex problems efficiently by breaking them down into smaller, manageable steps.';
+          break;
+        default:
+          definition = 'Definition not found.';
+          break;
+      }
+
+      document.getElementById('definition').innerText = definition;
+    }
+  </script>
+</body>
+</html>

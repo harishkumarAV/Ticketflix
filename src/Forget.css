@@ -1,0 +1,40 @@
+.forget
+{
+        background-color:rgb(211, 227, 249);
+        border:none;
+        color: rgb(11, 2, 2);
+        padding-right: 3px;
+        padding-left: 3px;
+        font-size: 20px;
+}
+input[type=text]
+{
+    width:30%;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    border:2px solid #eaedf2;
+    
+}
+.but
+{
+    width:10%;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    border:2px solid #8aa6e0;
+    text-size-adjust: 20px;
+}
+.resend
+{
+    position: absolute;
+    left: 550px;
+    top: 380px;
+}
+.body3
+{
+    background-size:cover;
+    
+}

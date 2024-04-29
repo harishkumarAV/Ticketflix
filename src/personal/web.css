@@ -1,0 +1,72 @@
+/* web.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+#banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/04/01/318031/6b7e34027283b09b27ceeed28cf243cd-1000.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px;
+  opacity: 0;
+ /* animation: fade-in 1s 1s forwards;*/
+}
+
+header {
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#banner h1 {
+  font-size: 36px;
+}
+
+#banner p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

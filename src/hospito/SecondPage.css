@@ -1,0 +1,126 @@
+body
+{
+    background: no-repeat url("https://themighty.com/wp-content/uploads/2019/05/GettyImages-619963776-1280x640.jpg");
+    background-size: cover;
+}
+.one{
+    text-align: left;
+    font-family: 'Livvic';
+    font-size:  25px ;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.head{
+    font-size: 12px;
+    font-family: 'Livvic';
+    
+    text-align: left;
+    padding-left: 150px;
+}
+.head1{
+    font-family: 'Livvic';
+
+    font-size: 22px;
+    text-align: left;
+    padding-left: 150px;
+}
+.head2{
+    font-family: 'Livvic';
+    
+    font-size: 22px;
+    text-align: left;
+    padding-left: 150px;
+}
+.end{
+    font-family: 'Livvic';
+    color: rgb(8, 8, 8);
+    text-align: left;
+    padding-left: 150px;
+    font-size: 22px;
+}
+.end1{
+    font-family: 'Livvic';
+    color: rgb(17, 16, 16);
+    text-align: left;
+    font-size: 18px;
+    padding-left: 180px;
+}
+
+button[type=book1]{
+    background: no-repeat url("https://th.bing.com/th/id/OIP.M-CW9mexpBK3AH83NYcoLAHaE_?pid=ImgDet&rs=1");
+    font-size: 15px;
+    color:rgb(13, 13, 13);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+button[type=book4]{
+    background: no-repeat url("https://th.bing.com/th/id/OIP.M-CW9mexpBK3AH83NYcoLAHaE_?pid=ImgDet&rs=1");
+    font-size: 15px;
+    color:rgb(13, 13, 13);
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+button[type=book2]{
+    background: no-repeat url("https://th.bing.com/th/id/OIP.M-CW9mexpBK3AH83NYcoLAHaE_?pid=ImgDet&rs=1");
+    font-size: 15px;
+    color:rgb(13, 13, 13);
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    left: 100px;
+}
+button[type=book5]{
+    background: no-repeat url("https://th.bing.com/th/id/OIP.M-CW9mexpBK3AH83NYcoLAHaE_?pid=ImgDet&rs=1");
+    color:rgb(13, 13, 13);
+    font-size: 15px;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    left: 100px;
+}
+button[type=book3]{
+    background: no-repeat url("https://th.bing.com/th/id/OIP.M-CW9mexpBK3AH83NYcoLAHaE_?pid=ImgDet&rs=1");
+    font-size: 15px;
+    color:rgb(13, 13, 13);
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    left: 200px;
+}
+button[type=book6]{
+    background: no-repeat url("https://th.bing.com/th/id/OIP.M-CW9mexpBK3AH83NYcoLAHaE_?pid=ImgDet&rs=1");
+    font-size: 15px;
+    color:rgb(13, 13, 13);
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    left: 200px;
+}
+
+.box1{
+    text-align: left;
+    padding-left: 275px;
+    
+}
+.box2{
+    text-align: left;
+    padding-left: 275px;
+
+}

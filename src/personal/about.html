@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About | Your Website</title>
+  <link rel="stylesheet" type="text/css" href="web.css">
+  <style>
+    /* Add custom fonts */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://wallpaperaccess.com/full/2844692.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #888;
+      font-size: 16px; /* Added font-size property */
+    }
+
+    h1 {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #000;
+      opacity: 0;
+      animation: fade-in-heading 1s forwards;
+    }
+
+    h2, p {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      opacity: 0;
+      font-size: large;
+      text-align: justify;
+      animation: fade-in-text 3s forwards;
+    }
+
+    /* Define the animation keyframes */
+    @keyframes fade-in-heading {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fade-in-text {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Add styles for the main content */
+    .container {
+      padding: 50px;
+    }
+
+    /* Add styles for the LinkedIn image */
+    .linkedin-image {
+      display: inline-block;
+      width: 30px; /* Adjust the size of the image */
+      vertical-align: middle;
+    }
+
+    /* Add styles for the LinkedIn text */
+    .linkedin-text {
+      font-size: small;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    /* Add styles for the navigation links */
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #888;
+      padding: 5px;
+      border: 1px solid #888;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #888;
+      color: #fff;
+    }
+
+    /* Add styles for the footer */
+    footer {
+      color: #060606;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: transparent;
+    }
+
+    /* Add styles for the buttons */
+    .button {
+      background-color: #888;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+  </style>
+  <script>
+    function displayAnswer() {
+      var question = document.querySelector('.question');
+      var answerResult = document.querySelector('.answer-result');
+
+      // Display answer based on the current question
+      if (question.textContent === 'What is HTML used for?') {
+        answerResult.textContent = 'HTML is used for creating the structure and content of web pages.';
+      } else if (question.textContent === 'What does CSS stand for?') {
+        answerResult.textContent = 'CSS stands for Cascading Style Sheets and is used for styling web pages.';
+      } else if (question.textContent === 'What is JavaScript?') {
+        answerResult.textContent = 'JavaScript is a programming language that enables interactive and dynamic elements on web pages.';
+      } else {
+        // Add more questions and answers here
+        // You can use if-else statements or switch case to handle different questions
+      }
+    }
+
+    function getRandomQuestion() {
+      var questions = [
+        'What is HTML used for?',
+        'What does CSS stand for?',
+        'What is JavaScript?'
+        // Add more questions here
+      ];
+
+      var randomIndex = Math.floor(Math.random() * questions.length);
+      var randomQuestion = questions[randomIndex];
+
+      var questionElement = document.querySelector('.question');
+      var answerResult = document.querySelector('.answer-result');
+
+      questionElement.textContent = randomQuestion;
+      answerResult.textContent = '';
+
+      // Clear the answer result when displaying a new question
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="web.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h1 style="animation-delay: 1s;">About</h1>
+    <h2 style="animation-delay: 2s;">&nbsp&nbsp&nbspHello, I'm Harish Kumar A V, a passionate full stack developer and currently a 3rd-year student pursuing B.Tech in Information Technology with a focus on web development. Throughout my academic journey, I have gained expertise in various programming languages such as HTML, CSS, JavaScript, and backend technologies like Spring Boot and databases like MySQL. I have also worked with frameworks like React and Express and APIs like Postman, Swagger enabling me to build dynamic and responsive web applications. Besides my technical skills, I have hands-on experience collaborating with multidisciplinary teams, participating in hackathons, and contributing to open-source projects. These experiences have strengthened my problem-solving abilities, teamwork, and communication skills. As a lifelong learner, I always stay up to date with the latest technologies and industry trends. I am eager to take on new challenges and continuously enhance my skills to deliver high-quality, scalable, and efficient solutions. I am actively seeking opportunities to apply my knowledge and contribute to real-world projects. If you have any inquiries or would like to discuss potential collaborations, please feel free to contact me.</h2>
+    <p style="animation-delay: 4s;"class="linkedin-text">Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/harish-kumar-a-v-8b8995225" target="_blank"><img src="https://blog.carltonstaffing.com/wp-content/uploads/2020/09/linkedin-icon-logo-png-transparent-300x300.png" class="linkedin-image" alt="LinkedIn Logo"></a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 harishk inc. All rights reserved.</p>
+  </footer>
+
+  <section  class="container">
+    <h2 style="animation-delay: 6s;">Boring?</h2>
+    <p class="question"></p>
+    <p style="animation-delay: 6s;">
+      <button  class="button" onclick="getRandomQuestion()" >Random questions</button>
+      <button class="button" onclick="displayAnswer()">Display Answer</button>
+    </p>
+    <p class="answer-result"></p>
+  </section>
+</body>
+</html>

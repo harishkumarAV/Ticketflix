@@ -1,0 +1,37 @@
+/* Custom CSS for styling */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.col-md-4-sidebar{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0;
+    justify-content: right;
+}
+.input-section {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.input-table {
+    width: 100%;
+}
+
+.input-table th {
+    width: 40%;
+}
+
+.input-table td {
+    width: 15%;
+}

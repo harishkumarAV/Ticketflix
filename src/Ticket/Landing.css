@@ -1,0 +1,79 @@
+
+.list
+{
+    background: transparent;
+    color: #fff;
+}
+
+
+.bt0
+{
+    
+   
+   
+   
+    border-radius: 5px;
+    font-family: Arial;
+    width: 170px;
+    height: 40px;
+    background: rgba(0, 195, 255, 0.663);
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    
+
+}
+.editbt
+{
+    
+    font-family: Arial;
+    width: 70px;
+    height: 30px;
+    background: #008000bc;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+
+}
+.delbt
+{
+    
+    font-family: Arial;
+    width: 70px;
+    height: 30px;
+    background: rgba(255, 0, 0, 0.727);
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+   margin-left: 25px;
+
+}
+.updatebt
+{
+    font-family: Arial;
+    width: 70px;
+    height: 30px;
+    background: #008000bc;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+   margin-left: 25px;
+
+
+}
